@@ -134,8 +134,9 @@ CREATE TABLE `pedidos` (
   `total` decimal(10,2) DEFAULT NULL,
   `envio` int(11) NOT NULL,
   `estado` enum('Pendiente','Enviado','Cancelado') DEFAULT 'Pendiente',
-  `fecha_pedido` date NOT NULL DEFAULT current_timestamp()
+  `fecha_pedido` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
 --
 -- Volcado de datos para la tabla `pedidos`
