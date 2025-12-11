@@ -21,6 +21,7 @@ Plataforma de e-commerce pensada para negocios de fragancias y cuidado personal 
 
 ## Screenshots o diagramas
 - Home: ![Home](media/screen/home.png)
+- Producto: ![Producto](media/screen/producto.png)
 - Favoritos: ![Favoritos](media/screen/favoritos.png)
 - Carrito: ![Carrito](media/screen/carrito.png)
 - Panel Admin: ![Admin](media/screen/admin.png)
